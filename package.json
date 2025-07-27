@@ -1,0 +1,37 @@
+{
+  "name": "posture-reminder",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "electron-store": "^8.1.0"
+  },
+  "devDependencies": {
+    "electron": "^29.1.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.archita.posturereminder",
+    "productName": "Posture Reminder",
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "icon": "icon.ico",
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "description": "A minimal posture reminder desktop app",
+  "author": "Archita Dayal"
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Posture Reminder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #fff5e6;
+      text-align: center;
+    }
+    h1 {
+      color: #ff9900;
+    }
+    input, button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+    }
+    button {
+      cursor: pointer;
+      background-color: #ffcc66;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🪑 Posture Reminder</h1>
+  <p>Set interval (minutes):</p>
+  <input type="number" id="time" placeholder="e.g. 20">
+  <p>Custom message:</p>
+  <input type="text" id="message" placeholder="Sit straight!">
+  <br>
+  <button id="start">Start Reminder</button>
+  <button id="stop">Stop Reminder</button>
+</body>
+</html>
