@@ -1,39 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Posture Reminder</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background: #fff5e6;
-      text-align: center;
-    }
-    h1 {
-      color: #ff9900;
-    }
-    input, button {
-      padding: 10px;
-      margin: 10px;
-      font-size: 16px;
-    }
-    button {
-      cursor: pointer;
-      background-color: #ffcc66;
-      border: none;
-      border-radius: 8px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BackBuddy</title>
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🪑 Posture Reminder</h1>
-  <p>Set interval (minutes):</p>
-  <input type="number" id="time" placeholder="e.g. 20">
-  <p>Custom message:</p>
-  <input type="text" id="message" placeholder="Sit straight!">
-  <br>
-  <button id="start">Start Reminder</button>
-  <button id="stop">Stop Reminder</button>
+  <div class="container">
+    <h1>🧘‍♀️ BackBuddy</h1>
+    
+    <p class="tagline">
+      Stay mindful. Sit straight. Breathe better.🦋
+    </p>
+
+    <div class="card">
+      <label for="interval">⏰ Reminder Interval (mins):</label>
+      <input type="number" id="interval" min="1" placeholder="e.g. 30" />
+
+      <label for="message">💬 Reminder Message:</label>
+      <input type="text" id="message" placeholder="e.g. Sit up!" />
+
+      <div class="actions">
+        <button id="startBtn">Start Reminder</button>
+        <button id="stopBtn">Stop Reminder</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>Made with 💻 by <a href="https://github.com/arch5d" target="_blank" style="color: inherit; text-decoration: underline;">Archita Dayal</a></p>
+      <p>Version: 1.0.0</p>
+    </footer>
+  </div>
+
+  <script src="renderer.js"></script>
 </body>
 </html>

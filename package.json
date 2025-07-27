@@ -1,5 +1,6 @@
 {
-  "name": "posture-reminder",
+  "name": "backbuddy",
+  "description": "A friendly posture reminder desktop app to keep your back happy",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
@@ -15,23 +16,21 @@
     "electron-builder": "^26.0.12"
   },
   "build": {
-    "appId": "com.archita.posturereminder",
-    "productName": "Posture Reminder",
-    "files": [
-      "**/*"
-    ],
+    "appId": "com.archita.backbuddy",
+    "productName": "BackBuddy",
+    "icon": "src/icon.ico",
     "win": {
-      "icon": "icon.ico",
       "target": [
         "nsis",
         "portable"
-      ]
+      ],
+      "icon": "src/icon.ico"
     },
     "nsis": {
       "oneClick": false,
+      "perMachine": false,
       "allowToChangeInstallationDirectory": true
     }
   },
-  "description": "A minimal posture reminder desktop app",
   "author": "Archita Dayal"
 }

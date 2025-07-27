@@ -1,9 +1,9 @@
 let intervalId;
 
 document.addEventListener('DOMContentLoaded', () => {
-  const startBtn = document.getElementById('start');
-  const stopBtn = document.getElementById('stop');
-  const timeInput = document.getElementById('time');
+  const startBtn = document.getElementById('startBtn');
+  const stopBtn = document.getElementById('stopBtn');
+  const timeInput = document.getElementById('interval');
   const messageInput = document.getElementById('message');
 
   startBtn.addEventListener('click', () => {
