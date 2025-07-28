@@ -12,6 +12,8 @@ Built with Electron — stay comfy, stay focused. 💻
 ![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
 [![Download BackBuddy](https://img.shields.io/badge/Download%20Now-.exe-blue?logo=google-drive)](https://drive.google.com/file/d/1KKSNAnuhNj1N0tLGsmXe178TOCyckAd9/view?usp=sharing)
 
+![buddy](./assets/Buddy.png)
+
 ---
 
 ## 📦 Features
@@ -58,8 +60,6 @@ npm run dist
 ---
 
 ## 🖼️ Preview
-
-![lp1](./assets/img1.png)
 
 ![lp2](./assets/img2.png)
 
