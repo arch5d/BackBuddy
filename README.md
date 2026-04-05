@@ -60,16 +60,15 @@ npm run dist
 ---
 
 ## 🖼️ Preview
+![lp1](./assets/img1.png)
 
 ![lp1](./assets/img1.png)
 
 ![lp2](./assets/img2.png)
 
-![lp3](./assets/img3.png)
-
 ![app interface](./assets/app.png)
 
-![Breminder pg](./assets/reminder.png)
+![reminder pg](./assets/reminder.png)
 
 ---
 
