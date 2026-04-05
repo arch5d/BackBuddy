@@ -62,8 +62,6 @@ npm run dist
 ## 🖼️ Preview
 ![lp1](./assets/img1.png)
 
-![lp1](./assets/img1.png)
-
 ![lp2](./assets/img2.png)
 
 ![app interface](./assets/app.png)
