@@ -9,13 +9,18 @@
 </head>
 <body>
   <div class="container">
-    <h1>🧘‍♀️ BackBuddy</h1>
+    <div class="brand">
+      <img src="icon.ico" alt="BackBuddy logo" class="logo" />
+      <h1>BackBuddy</h1>
+    </div>
     
     <p class="tagline">
       Stay mindful. Sit straight. Breathe better.🦋
     </p>
 
     <div class="card">
+      <div id="statusBadge" class="status-badge">Status: Inactive</div>
+
       <label for="interval">⏰ Reminder Interval (mins):</label>
       <input type="number" id="interval" min="1" placeholder="e.g. 30" />
 
@@ -23,9 +28,10 @@
       <input type="text" id="message" placeholder="e.g. Sit up!" />
 
       <div class="actions">
-        <button id="startBtn">Start Reminder</button>
-        <button id="stopBtn">Stop Reminder</button>
+        <button id="toggleBtn">Start Reminders</button>
       </div>
+
+      <a href="#" id="testNotificationLink" class="test-link">Send Test Notification</a>
     </div>
 
     <footer>
